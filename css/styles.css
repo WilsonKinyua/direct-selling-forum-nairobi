@@ -7344,7 +7344,7 @@ textarea.form-control {
   }
 }
 
-.banner-pattern {
+/* .banner-pattern {
   height: 8px;
   background: url('https://jacobsladder.africa/img/pattern.svg');
   z-index: 9999999;
@@ -7352,4 +7352,4 @@ textarea.form-control {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
