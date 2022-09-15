@@ -5420,6 +5420,10 @@ h5,
   font-family: "Barlow Condensed", Arial, sans-serif;
 }
 
+.navbar-brand img {
+  height: 50px;
+}
+
 .hero-wrap {
   width: 100%;
   height: 100vh;
@@ -6425,6 +6429,9 @@ textarea.form-control {
 }
 .ftco-footer .logo a {
   position: relative;
+}
+.ftco-footer .logo img{
+  height: 50px;
 }
 .ftco-footer .ftco-footer-widget h2 {
   font-weight: normal;
