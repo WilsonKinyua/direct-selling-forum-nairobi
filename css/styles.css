@@ -5485,7 +5485,7 @@ h5,
   }
 }
 .slider-text h1 {
-  font-size: 125px;
+  font-size: 140px;
   color: #fff;
   line-height: 0.9;
   font-weight: 600;
@@ -5675,7 +5675,7 @@ h5,
   display: inline-block;
   border: 1px solid transparent;
   background: #fff;
-  width: 25%;
+  width: 50%;
   text-transform: uppercase;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
