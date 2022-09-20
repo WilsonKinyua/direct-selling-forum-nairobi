@@ -3083,6 +3083,7 @@ img.mfp-img {
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
+  --main-color: #ec6726;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -5554,9 +5555,15 @@ h5,
   color: #ec6726;
 }
 .slider-text .bread {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.slider-text .bread small {
+  font-size: 24px;
+  color: var(--main-color);
+  font-weight: 700;
 }
 
 #timer {
@@ -6430,7 +6437,7 @@ textarea.form-control {
 .ftco-footer .logo a {
   position: relative;
 }
-.ftco-footer .logo img{
+.ftco-footer .logo img {
   height: 50px;
 }
 .ftco-footer .ftco-footer-widget h2 {
@@ -7385,14 +7392,33 @@ textarea.form-control {
 
 .partners-section img {
   width: 110px;
-    height: 70px;
-    object-fit: contain;
-    object-position: center center;
-    padding: 5px;
+  height: 70px;
+  object-fit: contain;
+  object-position: center center;
+  padding: 5px;
 }
 
 .sponsor-title {
   font-size: 18px;
   font-weight: 700;
   color: #1c1c24;
+}
+
+.speaker-details .card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 60px 0px;
+  border: none;
+  border-radius: 10px;
+}
+
+.speaker-details .card .img-fluid {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.speaker-details .card-body {
+  padding: 10px;
 }
