@@ -3098,7 +3098,19 @@ img.mfp-img {
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 }
-
+.main-color {
+  color: var(--main-color);
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+  color: #fff;
+}
+.bg-secondary {
+  background-color: #17ADAB !important;
+}
+.text-white {
+  color: #fff !important;
+}
 *,
 *::before,
 *::after {
@@ -5780,7 +5792,7 @@ h5,
   }
 }
 .speaker-wrap .text h2 {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -5788,7 +5800,7 @@ h5,
   color: #000000;
 }
 .speaker-wrap .text h3.speaker-name {
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 .speaker-wrap .text h3.speaker-name a {
