@@ -3878,7 +3878,9 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
-
+.text-danger {
+  color: red;
+}
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -7466,7 +7468,7 @@ textarea.form-control {
 }
 
 .register-content {
-  padding: 420px 0 2px 10px;
+  padding: 350px 0 2px 10px;
 }
 
 .register-summit .card {
@@ -7506,6 +7508,31 @@ textarea.form-control {
 
 .speaker-wrap-details .position a {
   color: #999999;
+}
+
+.register-header h1 {
+  font-size: 38px;
+}
+
+.register-instruction h5 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #1c1c24;
+  font-weight: 700;
+}
+
+.register-instruction {
+  margin-bottom: 20px;
+}
+
+.register-instruction.card {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding: 20px;
+}
+
+.padding-card {
+  padding: 40px;
 }
 
 /* resposiveness */
