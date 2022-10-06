@@ -5467,7 +5467,7 @@ h5,
   z-index: -2;
 }
 .hero-wrap.hero-wrap-2 {
-  background-image: url('../img/header.jpeg');
+  background-image: url("../img/header.jpeg");
   height: 600px;
   position: relative;
   background-size: cover;
@@ -7423,6 +7423,8 @@ textarea.form-control {
 
 .why-attend .card .card-body {
   padding: 10px 20px;
+  height: 120px;
+  margin-bottom: 30px;
 }
 
 .partners-section img {
@@ -7529,7 +7531,8 @@ textarea.form-control {
 
 .register-instruction.card {
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   padding: 20px;
 }
 
