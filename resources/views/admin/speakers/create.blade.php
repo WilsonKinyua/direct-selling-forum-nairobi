@@ -198,11 +198,11 @@
     headers: {
       'X-CSRF-TOKEN': "{{ csrf_token() }}"
     },
-    params: {
-      size: 20,
-      width: 4096,
-      height: 4096
-    },
+    // params: {
+    //   size: 20,
+    //   width: 4096,
+    //   height: 4096
+    // },
     success: function (file, response) {
       $('form').find('input[name="avatar"]').remove()
       $('form').append('<input type="hidden" name="avatar" value="' + response.name + '">')

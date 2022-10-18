@@ -1,6 +1,11 @@
 <?php
 
-Route::redirect('/', '/login');
+
+// public
+Route::get('/', 'PublicController@index')->name('index');
+Route::get('discover-nairobi', 'PublicController@discoverNairobi')->name('discover.nairobi');
+
+// private
 Route::get('/home', function () {
     if (session('status')) {
         return redirect()->route('admin.home')->with('status', session('status'));
