@@ -6467,7 +6467,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   position: relative;
   width: 100%;
 }
@@ -7659,6 +7659,53 @@ textarea.form-control {
   padding: 40px;
 }
 
+.bg-primary {
+  background-color: #ec6726;
+}
+
+.discover-nairobi {
+  background-image: url('https://images.unsplash.com/photo-1596005554384-d293674c91d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2098&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.discover-nairobi-bg {
+  background-color: rgba(0, 0, 0, 0.597);
+}
+
+.discover-nairobi-content {
+  padding: 100px 0px;
+}
+
+.discover-nairobi-content h2 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+}
+
+.discover-nairobi-content p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  padding: 50px 0px;
+}
+
+.discover-nairobi .btn-primary {
+  padding: 1rem 1.5rem;
+    border: 1px solid;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all .4s ease;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-appearance: none;
+    appearance: none;
+    text-align: center;
+    width: 480px;
+}
+
 /* resposiveness */
 
 @media (max-width: 768px) {
@@ -7680,6 +7727,10 @@ textarea.form-control {
   .speaker-details img {
     height: auto;
   }
+
+  .discover-nairobi .btn-primary {
+    width: auto;
+   }
 }
 
 @media (max-width: 576px) {
