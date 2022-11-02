@@ -3130,6 +3130,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.text-bold {
+  font-weight: 700;
+}
+
 figcaption,
 figure,
 footer,
@@ -7664,14 +7668,15 @@ textarea.form-control {
 }
 
 .discover-nairobi {
-  background-image: url('https://images.unsplash.com/photo-1596005554384-d293674c91d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2098&q=80');
+  background-image: url('https://images.unsplash.com/photo-1611348524140-53c9a25263d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .discover-nairobi-bg {
-  background-color: rgba(0, 0, 0, 0.597);
+  /* background-color: rgba(40, 17, 0, 0.736); */
+  background: linear-gradient(45deg,#423eada9 0%,#ec6826ad 100%);
 }
 
 .discover-nairobi-content {
@@ -7704,6 +7709,10 @@ textarea.form-control {
     appearance: none;
     text-align: center;
     width: 480px;
+}
+
+.discover-nairobi-top-header .discover-nairobi-content {
+  padding-top: 300px;
 }
 
 /* resposiveness */
