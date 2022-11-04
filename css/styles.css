@@ -2969,6 +2969,10 @@ img.mfp-img {
   margin: 0 auto;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
+
 /* The shadow behind the image */
 .mfp-figure {
   line-height: 0;
@@ -7680,7 +7684,6 @@ textarea.form-control {
 }
 
 .discover-nairobi {
-  background-image: url("https://images.unsplash.com/photo-1611348524140-53c9a25263d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
