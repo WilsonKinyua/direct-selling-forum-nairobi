@@ -7756,6 +7756,16 @@ textarea.form-control {
   border-radius: 5px;
 }
 
+.restaurants-list {
+  padding: 50px 0px;
+  display: flex;
+}
+
+.restaurants-list li a {
+  color: #ec6726;
+  padding-right: 25px;
+}
+
 /* resposiveness */
 
 @media (max-width: 768px) {
@@ -7784,6 +7794,11 @@ textarea.form-control {
 
   .discover-nairobi-carousel img {
     height: auto;
+  }
+
+  .restaurants-list {
+    padding: 10px;
+    display: inline;
   }
 }
 
