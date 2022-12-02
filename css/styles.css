@@ -7568,11 +7568,12 @@ textarea.form-control {
 }
 
 .partners-section img {
-  width: 130px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   object-fit: contain;
   object-position: center center;
-  padding: 5px;
+  padding: 3px;
+  margin-right: 50px;
 }
 
 .sponsor-title {
