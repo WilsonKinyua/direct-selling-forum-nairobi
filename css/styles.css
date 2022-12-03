@@ -7786,6 +7786,7 @@ textarea.form-control {
 
   .speaker-wrap-details img {
     height: auto;
+    width: 100%;
   }
 
   .speaker-details img {
