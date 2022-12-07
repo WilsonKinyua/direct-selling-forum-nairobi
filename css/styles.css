@@ -7196,7 +7196,7 @@ textarea.form-control {
 
 .info-wrap {
   width: 100%;
-  background: #423ead;
+  background: #fd7e14;
 }
 .info-wrap h3 {
   color: #fff;
@@ -7216,7 +7216,7 @@ textarea.form-control {
 }
 .info-wrap .dbox p span {
   font-weight: 700;
-  color: #ec6726;
+  color: #000000;
 }
 .info-wrap .dbox p a {
   color: #fff;
@@ -7569,8 +7569,8 @@ textarea.form-control {
 }
 
 .partners-section img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   object-fit: contain;
   object-position: center center;
   padding: 3px;
@@ -7644,6 +7644,7 @@ textarea.form-control {
 .speaker-wrap-details .position a {
   color: #999999;
   font-size: 0.7em;
+  text-transform: uppercase;
 }
 
 .register-header h1 {
