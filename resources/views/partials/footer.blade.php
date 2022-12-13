@@ -22,7 +22,7 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Explore</h2>
                     <ul class="list-unstyled">
-                        <li><a href="about-us.html"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
+                        <li><a href="{{ route('about-us') }}"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
                         <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
                         <li><a href="speaker.html"><span class="fa fa-chevron-right mr-2"></span>Speaker</a></li>
 

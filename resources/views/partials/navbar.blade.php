@@ -9,12 +9,24 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="{{ route('index') }}" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="about-us.html" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="schedule.html" class="nav-link">Program</a></li>
-                <li class="nav-item"><a href="speaker.html" class="nav-link">Speakers</a></li>
-                <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="register.html" class="nav-link register-btn">Register Now</a></li>
+                <li class="nav-item">
+                    <a href="{{ route('index') }}" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item {{ request()->is('about-us') ? 'active' : '' }}">
+                    <a href="{{ route('about-us') }}" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="schedule.html" class="nav-link">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a href="speaker.html" class="nav-link">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact-us.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.html" class="nav-link register-btn">Register Now</a>
+                </li>
             </ul>
         </div>
     </div>

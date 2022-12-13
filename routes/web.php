@@ -9,7 +9,7 @@ Route::group(['prefix' => 'discover-nairobi', 'as' => 'discover.'], function () 
     Route::get('restaurants', 'PublicController@restaurants')->name('restaurants');
     Route::get('shopping', 'PublicController@shopping')->name('shopping');
 });
-
+Route::get('about-us', 'PublicController@aboutUs')->name('about-us');
 // private
 Route::get('/home', function () {
     if (session('status')) {

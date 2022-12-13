@@ -32,4 +32,9 @@ class PublicController extends Controller
     {
         return view('public.shopping');
     }
+
+    public function aboutUs()
+    {
+        return view('public.about-us');
+    }
 }
