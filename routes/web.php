@@ -3,7 +3,10 @@
 
 // public
 Route::get('/', 'PublicController@index')->name('index');
-Route::get('discover-nairobi', 'PublicController@discoverNairobi')->name('discover.nairobi');
+Route::group(['prefix' => 'discover-nairobi', 'as' => 'discover.'], function () {
+    Route::get('/', 'PublicController@discoverNairobi')->name('nairobi');
+    Route::get('sightseeing', 'PublicController@sightseeing')->name('sightseeing');
+});
 
 // private
 Route::get('/home', function () {

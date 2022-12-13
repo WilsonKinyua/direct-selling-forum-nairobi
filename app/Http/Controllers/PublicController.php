@@ -17,4 +17,9 @@ class PublicController extends Controller
     {
         return view('public.discover-nairobi');
     }
+
+    public function sightseeing()
+    {
+        return view('public.sightseeing');
+    }
 }

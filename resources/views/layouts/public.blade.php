@@ -96,8 +96,24 @@
         eval(mod_pagespeed_NhdM2oKiAm);
     </script>
     <script src="{{ asset('js/fslightbox.js') }}"></script>
-
-
+    @yield('scripts')
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            },
+            autoplay: true,
+        })
+    </script>
 </body>
 
 

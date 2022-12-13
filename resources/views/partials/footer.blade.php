@@ -3,7 +3,7 @@
         <div class="row mb-5">
             <div class="col-sm-12 col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2 logo"><a href="{{ route('index') }}"><img src="img/logo.png" alt="Logo"></a>
+                    <h2 class="ftco-heading-2 logo"><a href="{{ route('index') }}"><img src="{{ asset('img/logo.png')}}" alt="Logo"></a>
                     </h2>
 
                     <ul class="ftco-footer-social list-unstyled mt-2">
