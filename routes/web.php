@@ -6,6 +6,8 @@ Route::get('/', 'PublicController@index')->name('index');
 Route::group(['prefix' => 'discover-nairobi', 'as' => 'discover.'], function () {
     Route::get('/', 'PublicController@discoverNairobi')->name('nairobi');
     Route::get('sightseeing', 'PublicController@sightseeing')->name('sightseeing');
+    Route::get('restaurants', 'PublicController@restaurants')->name('restaurants');
+    Route::get('shopping', 'PublicController@shopping')->name('shopping');
 });
 
 // private

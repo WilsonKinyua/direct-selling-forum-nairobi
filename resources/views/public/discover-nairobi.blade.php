@@ -65,7 +65,7 @@
                     </a>
                 </div>
                 <div class="card mb-3 mt-5">
-                    <a href="./restaurants.html">
+                    <a href="{{ route('discover.restaurants') }}">
                         <div class="row g-0">
                             <div class="col-md-5">
                                 <img src="{{ asset('img/restaurants.jpeg') }}" class="img-fluid rounded-start"
@@ -85,7 +85,7 @@
                     </a>
                 </div>
                 <div class="card mb-3 mt-5">
-                    <a href="./shopping.html">
+                    <a href="{{ route('discover.shopping') }}">
                         <div class="row g-0">
                             <div class="col-md-5">
                                 <img src="{{ asset('img/shopping.jpeg') }}" class="img-fluid rounded-start" alt="Shopping">

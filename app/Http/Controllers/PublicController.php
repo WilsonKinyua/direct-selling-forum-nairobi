@@ -22,4 +22,14 @@ class PublicController extends Controller
     {
         return view('public.sightseeing');
     }
+
+    public function restaurants()
+    {
+        return view('public.restaurants');
+    }
+
+    public function shopping()
+    {
+        return view('public.shopping');
+    }
 }
