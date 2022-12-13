@@ -3,7 +3,8 @@
         <div class="row mb-5">
             <div class="col-sm-12 col-md">
                 <div class="ftco-footer-widget mb-4">
-                    <h2 class="ftco-heading-2 logo"><a href="{{ route('index') }}"><img src="{{ asset('img/logo.png')}}" alt="Logo"></a>
+                    <h2 class="ftco-heading-2 logo"><a href="{{ route('index') }}"><img src="{{ asset('img/logo.png') }}"
+                                alt="Logo"></a>
                     </h2>
 
                     <ul class="ftco-footer-social list-unstyled mt-2">
@@ -22,21 +23,18 @@
                 <div class="ftco-footer-widget mb-4 ml-md-4">
                     <h2 class="ftco-heading-2">Explore</h2>
                     <ul class="list-unstyled">
-                        <li><a href="{{ route('about-us') }}"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-                        <li><a href="speaker.html"><span class="fa fa-chevron-right mr-2"></span>Speaker</a></li>
+                        <li><a href="{{ route('about-us') }}"><span class="fa fa-chevron-right mr-2"></span>About</a>
+                        </li>
+                        <li><a href="{{ route('contact-us') }}"><span
+                                    class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+                        <li><a href="{{ route('speakers') }}"><span class="fa fa-chevron-right mr-2"></span>Speakers</a>
+                        </li>
 
                     </ul>
                 </div>
             </div>
             <div class="col-sm-12 col-md">
                 <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <!-- <h2 class="ftco-heading-2">Info</h2>
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Join us</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Register Now</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Privacy &amp; Policy</a></li>
-                    </ul> -->
                     <a href="register.html" class="btn btn-primary px-3 py-2">Register Now</a>
                 </div>
             </div>

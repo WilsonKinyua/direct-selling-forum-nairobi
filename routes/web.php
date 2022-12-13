@@ -10,6 +10,10 @@ Route::group(['prefix' => 'discover-nairobi', 'as' => 'discover.'], function () 
     Route::get('shopping', 'PublicController@shopping')->name('shopping');
 });
 Route::get('about-us', 'PublicController@aboutUs')->name('about-us');
+Route::get('program', 'PublicController@program')->name('program');
+Route::get('speakers', 'PublicController@speakers')->name('speakers');
+Route::get('contact-us', 'PublicController@contactUs')->name('contact-us');
+Route::post('contact-us', 'PublicController@createContactUs')->name('contact-us.create');
 // private
 Route::get('/home', function () {
     if (session('status')) {
@@ -41,8 +45,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::resource('countries', 'CountriesController');
 
     // Contact Us
-    Route::delete('contact-uss/destroy', 'ContactUsController@massDestroy')->name('contact-uss.massDestroy');
-    Route::resource('contact-uss', 'ContactUsController', ['except' => ['create', 'store', 'edit', 'update']]);
+    Route::delete('contact-us/destroy', 'ContactUsController@massDestroy')->name('contact-uss.massDestroy');
+    Route::resource('contact-us', 'ContactUsController', ['except' => ['create', 'store', 'edit', 'update']]);
 
     // Speakers
     Route::delete('speakers/destroy', 'SpeakersController@massDestroy')->name('speakers.massDestroy');

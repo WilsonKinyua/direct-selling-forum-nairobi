@@ -20,9 +20,12 @@ class ContactUsController extends Controller
         return view('admin.contactUss.index', compact('contactUss'));
     }
 
-    public function show(ContactUs $contactUs)
+    public function show($id)
     {
         abort_if(Gate::denies('contact_us_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+
+        $contactUs = ContactUs::find($id);
+        abort_if(!$contactUs, Response::HTTP_NOT_FOUND, '404 Not Found');
 
         return view('admin.contactUss.show', compact('contactUs'));
     }

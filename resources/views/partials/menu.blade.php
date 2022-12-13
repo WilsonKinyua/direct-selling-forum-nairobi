@@ -17,7 +17,7 @@
         </li>
         @can('contact_us_access')
             <li class="c-sidebar-nav-item">
-                <a href="{{ route("admin.contact-uss.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/contact-uss") || request()->is("admin/contact-uss/*") ? "c-active" : "" }}">
+                <a href="{{ route("admin.contact-us.index") }}" class="c-sidebar-nav-link {{ request()->is("admin/contact-us") || request()->is("admin/contact-us/*") ? "c-active" : "" }}">
                     <i class="fa-fw fas fa-envelope c-sidebar-nav-icon">
 
                     </i>
