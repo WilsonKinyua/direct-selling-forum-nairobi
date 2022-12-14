@@ -24,9 +24,16 @@
                 <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}">
                     <a href="{{ route('contact-us') }}" class="nav-link">Contact</a>
                 </li>
-                <li class="nav-item">
-                    <a href="register.html" class="nav-link register-btn">Register Now</a>
-                </li>
+                {{-- @auth
+                    <li class="nav-item {{ request()->is('user/account') ? 'active' : '' }}">
+                        <a href="{{ route('user.account') }}" class="nav-link btn bg-secondary text-white">Dashboard</a>
+                    </li>
+                @endauth --}}
+                @guest
+                    <li class="nav-item">
+                        <a href="{{ route('register') }}" class="nav-link register-btn">Register Now</a>
+                    </li>
+                @endguest
             </ul>
         </div>
     </div>

@@ -35,7 +35,7 @@
             </div>
             <div class="col-sm-12 col-md">
                 <div class="ftco-footer-widget mb-4 ml-md-4">
-                    <a href="register.html" class="btn btn-primary px-3 py-2">Register Now</a>
+                    <a href="{{ route('register')}}" class="btn btn-primary px-3 py-2">Register Now</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md">

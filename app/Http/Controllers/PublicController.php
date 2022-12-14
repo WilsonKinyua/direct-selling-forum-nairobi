@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\ContactUs;
+use App\Models\Country;
 use App\Models\Speaker;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 
 class PublicController extends Controller
 {
@@ -67,5 +70,35 @@ class PublicController extends Controller
         ContactUs::create($request->all());
 
         return redirect()->back()->with('message', 'Message sent successfully. We will get back to you shortly.');
+    }
+
+    public function userAccount()
+    {
+        $countries = Country::all();
+        return view('public.user-account', compact('countries'));
+    }
+
+    public function userAccountUpdate(Request $request)
+    {
+        $request->validate([
+            'attendee_type' => 'required',
+            'title' => 'required',
+            'name' => 'required',
+            'country_id' => 'required',
+            'organization' => 'required',
+            'phone_number' => 'required|min:10',
+        ]);
+
+        $user = User::find(auth()->user()->id);
+        abort_if(!$user, 404, 'Account not found!');
+        $user->attendee_type = $request->attendee_type;
+        $user->title = $request->title;
+        $user->name = $request->name;
+        $user->country_id = $request->country_id;
+        $user->organization = $request->organization;
+        $user->phone_number = $request->phone_number;
+        $user->update();
+
+        return redirect()->back()->with('message', 'Account updated successfully.');
     }
 }

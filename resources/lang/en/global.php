@@ -44,7 +44,7 @@ return [
     'timeTo'                         => 'To',
     'toggleNavigation'               => 'Toggle navigation',
     'user_name'                      => 'Name',
-    'verifyYourEmail'                => 'Please verify your email',
+    'verifyYourEmail'                => 'Please verify your email in order to continue',
     'verifyYourUser'                 => 'To finish your registration - site asks you to verify your email',
     'view'                           => 'View',
     'view_file'                      => 'View file',

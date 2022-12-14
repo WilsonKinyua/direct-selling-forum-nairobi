@@ -2,6 +2,9 @@
 
 
 // public
+
+use Illuminate\Support\Facades\Auth;
+
 Route::get('/', 'PublicController@index')->name('index');
 Route::group(['prefix' => 'discover-nairobi', 'as' => 'discover.'], function () {
     Route::get('/', 'PublicController@discoverNairobi')->name('nairobi');
@@ -14,13 +17,20 @@ Route::get('program', 'PublicController@program')->name('program');
 Route::get('speakers', 'PublicController@speakers')->name('speakers');
 Route::get('contact-us', 'PublicController@contactUs')->name('contact-us');
 Route::post('contact-us', 'PublicController@createContactUs')->name('contact-us.create');
+
 // private
 Route::get('/home', function () {
-    if (session('status')) {
-        return redirect()->route('admin.home')->with('status', session('status'));
+    // check if user is admin
+    if (Auth::user()->roles->pluck('title')->implode('', '') === 'Super Admin' || Auth::user()->roles->pluck('title')->implode('', '') === 'Admin') {
+        return redirect()->route('admin.home');
+    } else {
+        return redirect()->route('user.account');
     }
+});
 
-    return redirect()->route('admin.home');
+Route::group(['prefix' => 'user', 'as' => 'user.', 'middleware' => ['auth']], function () {
+    Route::get('account', 'PublicController@userAccount')->name('account');
+    Route::post('account/update', 'PublicController@userAccountUpdate')->name('account.update');
 });
 
 Route::get('userVerification/{token}', 'UserVerificationController@approve')->name('userVerification');

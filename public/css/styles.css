@@ -4429,19 +4429,19 @@ fieldset:disabled a.btn {
     background-color: var(--bs-alert-bg);
     border: var(--bs-alert-border);
     border-radius: var(--bs-alert-border-radius);
-  }
+}
 
-  .alert-success {
+.alert-success {
     --bs-alert-color: #0f5132;
     --bs-alert-bg: #d1e7dd;
     --bs-alert-border-color: #badbcc;
-  }
+}
 
-  .alert-danger {
+.alert-danger {
     --bs-alert-color: #842029;
     --bs-alert-bg: #f8d7da;
     --bs-alert-border-color: #f5c2c7;
-  }
+}
 
 @-webkit-keyframes progress-bar-stripes {
     from {
@@ -7674,18 +7674,44 @@ textarea.form-control {
 }
 
 .register-img-wrapper {
-    background-image: url("https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80");
+    background-image: url("../img/register-bg.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.675em;
+    color: #dc3545;
+}
+
+.was-validated :invalid ~ .invalid-feedback,
+.was-validated :invalid ~ .invalid-tooltip,
+.is-invalid ~ .invalid-feedback,
+.is-invalid ~ .invalid-tooltip {
+    display: block;
+}
+
+.alert-info {
+    --bs-alert-color: #055160;
+    --bs-alert-bg: #cff4fc;
+    --bs-alert-border-color: #b6effb;
+}
+.alert-info .alert-link {
+    color: #04414d;
+}
+
 .bg-light-dark {
     background-color: rgba(17, 16, 13, 0.575);
 }
-
+.text-right {
+    text-align: right;
+}
 .register-content {
-    padding: 350px 0 2px 10px;
+    padding: 450px 0 2px 10px;
 }
 
 .register-summit .card {
@@ -7787,7 +7813,8 @@ textarea.form-control {
     padding: 100px 0px;
 }
 
-.discover-nairobi-content h1 {
+.discover-nairobi-content h1,
+.discover-nairobi-content h2 {
     font-weight: 700;
     font-size: 38px;
     color: #fff;
