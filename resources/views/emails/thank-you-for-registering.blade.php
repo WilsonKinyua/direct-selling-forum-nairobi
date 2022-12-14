@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+</head>
+
+<body class="c4 doc-content" style="margin-left: 10px; margin-top: 10px;">
+    <p class="c1"><span class="c7"><strong>Thank you for registering!</strong></span></p>
+    <p class="c0"><span class="c7"></span></p>
+    <p class="c1"><span class="c2">Dear {{ $user->name ?? ''}},</span></p>
+    <p class="c1"><span class="c5">Thank you for registering for the </span><strong>Africa Direct Selling Forum
+            2023</strong><span class="c2">.</span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">Your registration is now complete and your slot at the conference is
+            confirmed.</span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">To join the different conference sessions kindly follow the below links:</span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <ul class="c9 lst-kix_t3teg17kw2x9-0 start">
+        <li class="c1 c3 li-bullet-0"><span class="c2">Learn more about Africa Direct Selling Forum.</span></li>
+        <li class="c1 c3 li-bullet-0"><span class="c2">Follow us on Facebook, Twitter and Instagram.</span></li>
+    </ul>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c1"><span class="c5">If you have any questions about your registration, please contact the secretariat
+            team by email on </span><span class="c10"><a class="c6"
+                href="mailto:secretariat@directsellingafrica.com">secretariat@directsellingafrica.com</a></span><span
+            class="c2">. </span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">Thank you.</span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">Regards,</span></p>
+    <p class="c0"><span class="c2"></span></p>
+    <p class="c1"><span class="c2">Africa Direct Selling Forum Secretariat Team.</span></p>
+</body>
+
+</html>

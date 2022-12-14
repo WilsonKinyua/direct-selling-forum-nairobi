@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ThankYouForRegistering;
 use App\Models\ContactUs;
 use App\Models\Country;
 use App\Models\Speaker;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 
 class PublicController extends Controller
 {
@@ -98,7 +100,13 @@ class PublicController extends Controller
         $user->organization = $request->organization;
         $user->phone_number = $request->phone_number;
         $user->update();
+        
+        // send email to user
+        Mail::to($user->email)->send(new ThankYouForRegistering($user));
 
-        return redirect()->back()->with('message', 'Account updated successfully.');
+        // log out user
+        auth()->logout();
+        
+        return redirect()->route('index');
     }
 }

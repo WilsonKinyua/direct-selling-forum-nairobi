@@ -78,7 +78,8 @@
                                 <div class="col-md-6">
                                     <div class="mb-3">
                                         <label for="name" class="form-label required">Full name</label>
-                                        <input type="text" class="form-control" name="name" required>
+                                        <input type="text" class="form-control" name="name" required
+                                            value="{{ old('name', auth()->user()->name) }}">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
