@@ -8,13 +8,13 @@
                     </h2>
 
                     <ul class="ftco-footer-social list-unstyled mt-2">
-                        <li class="ftco-animate"><a target="_blank" href="https://twitter.com/SummitSelling"><span
+                        <li class="ftco-animate"><a target="_blank" href="https://twitter.com/directforum"><span
                                     class="fab fa-twitter"></span></a></li>
                         <li class="ftco-animate"><a target="_blank"
-                                href="https://www.facebook.com/directsellingsummit/"><span
+                                href="https://web.facebook.com/directsellingsummit/"><span
                                     class="fab fa-facebook"></span></a></li>
                         <li class="ftco-animate"><a target="_blank"
-                                href="https://www.instagram.com/direct.selling.summit/"><span
+                                href="https://www.instagram.com/africadirectsellingforum/"><span
                                     class="fab fa-instagram"></span></a></li>
                     </ul>
                 </div>
@@ -48,7 +48,7 @@
                             <li><a><span class="icon fa fa-phone"></span><span class="text">+254 729 301
                                         953 / +254 705 782 606</span></a></li>
                             <li><a><span class="icon fa fa-paper-plane pr-4"></span><span
-                                        class="text"><span>dsforum@newmark-imc.com</span></span></a>
+                                        class="text"><span>secretariat@directsellingafrica.com</span></span></a>
                             </li>
                         </ul>
                     </div>

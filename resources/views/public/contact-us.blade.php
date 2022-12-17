@@ -106,8 +106,8 @@
                                             <span class="fa fa-paper-plane"></span>
                                         </div>
                                         <div class="text pl-3">
-                                            <p><span>Email:</span> <a href="malto:dsforum@newmark-imc.com"><span
-                                                        class="text-white">dsforum@newmark-imc.com</span></a>
+                                            <p><span>Email:</span> <a href="malto:secretariat@directsellingafrica.com"><span
+                                                        class="text-white">secretariat@directsellingafrica.com</span></a>
                                             </p>
                                         </div>
                                     </div>
