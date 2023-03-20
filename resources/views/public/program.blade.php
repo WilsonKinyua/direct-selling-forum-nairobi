@@ -34,10 +34,10 @@
                             aria-orientation="vertical">
                             <a class="nav-link ftco-animate active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
                                 role="tab" aria-controls="v-pills-1" aria-selected="true">Day 01
-                                <span>13<sup>th</sup> February 2023</span></a>
+                                <span>15<sup>th</sup> May 2023</span></a>
                             <a class="nav-link ftco-animate" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2"
-                                role="tab" aria-controls="v-pills-2" aria-selected="false">Day 02 <span>14<sup>th</sup>
-                                    February
+                                role="tab" aria-controls="v-pills-2" aria-selected="false">Day 02 <span>16<sup>th</sup>
+                                    May
                                     2023</span></a>
                         </div>
                     </div>
