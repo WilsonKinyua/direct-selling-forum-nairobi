@@ -15,12 +15,12 @@
                 <li class="nav-item {{ request()->is('about-us') ? 'active' : '' }}">
                     <a href="{{ route('about-us') }}" class="nav-link">About</a>
                 </li>
-                <li class="nav-item {{ request()->is('program') ? 'active' : '' }}">
+                {{-- <li class="nav-item {{ request()->is('program') ? 'active' : '' }}">
                     <a href="{{ route('program') }}" class="nav-link">Program</a>
                 </li>
                 <li class="nav-item {{ request()->is('speakers') ? 'active' : '' }}">
                     <a href="{{ route('speakers') }}" class="nav-link">Speakers</a>
-                </li>
+                </li> --}}
                 <li class="nav-item {{ request()->is('contact-us') ? 'active' : '' }}">
                     <a href="{{ route('contact-us') }}" class="nav-link">Contact</a>
                 </li>

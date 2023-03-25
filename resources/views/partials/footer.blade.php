@@ -27,8 +27,8 @@
                         </li>
                         <li><a href="{{ route('contact-us') }}"><span
                                     class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-                        <li><a href="{{ route('speakers') }}"><span class="fa fa-chevron-right mr-2"></span>Speakers</a>
-                        </li>
+                        {{-- <li><a href="{{ route('speakers') }}"><span class="fa fa-chevron-right mr-2"></span>Speakers</a>
+                        </li> --}}
 
                     </ul>
                 </div>

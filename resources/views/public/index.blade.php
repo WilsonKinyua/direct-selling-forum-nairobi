@@ -47,7 +47,7 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section ftco-team">
+    {{-- <section class="ftco-section ftco-team">
         <div class="overlay"></div>
         <div class="container">
             <div class="row pb-5 justify-content-center">
@@ -107,7 +107,6 @@
                             </div>
                         </div>
                     </div>
-                    {{-- speaker modal --}}
                     <div class="modal fade" id="{{ str_replace(' ', '', $speaker->name) }}" tabindex="-1"
                         aria-labelledby="{{ str_replace(' ', '', $speaker->name) }}Label" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-xl">
@@ -174,7 +173,7 @@
                 @endforeach
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="discover-nairobi" style='background-image: url("{{ asset('img/nairobi.jpeg') }}");'>
         <div class="discover-nairobi-bg">
             <div class="container">
