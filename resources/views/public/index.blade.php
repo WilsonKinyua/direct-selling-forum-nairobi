@@ -11,7 +11,7 @@
                     </h1>
                     <p class="loc-date">
                         <span><i class="fa fa-map-marker"></i> Nairobi, Kenya</span>
-                        <span><i class="fa fa-calendar"></i> May 15<sup>th</sup> & 16<sup>th</sup>
+                        <span><i class="fa fa-calendar"></i> October 23<sup>rd</sup> & 24<sup>rd</sup>
                             2023</span>
                     </p>
                 </div>
